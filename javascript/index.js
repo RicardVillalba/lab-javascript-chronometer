@@ -14,7 +14,14 @@ let milUni = document.getElementById('milUni');
 let splits = document.getElementById('splits');
 
 function printTime() {
-  // ... your code goes here
+  const btnLeft = querySelector(".btnLeft");
+  btnLeft.addEventListener("click", clikStart);
+ }
+
+// button.addEventListener('click', function () {
+//   console.log("The button was clicked");
+// })
+
 }
 
 function printMinutes() {
